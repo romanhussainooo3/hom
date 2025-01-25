@@ -1,0 +1,635 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nunito Sans", serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.header .icon-font{
+    font-size: 8px;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+}
+/* header start */
+.header{
+    width: 100%;
+    padding: 10px 0px 120px 0px;
+    background: url(../images/img.banner.png) top center no-repeat;
+    background-size: cover;
+}
+.header .iner{
+    margin: 15px 0px 0px 20px;
+}
+.header .iner h4{
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 600;
+    font-family: "Nunito Sans", serif;
+}
+.header .iner p{
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: rgb(121, 222, 188);
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px 16px;
+    text-transform: capitalize;
+    font-family: "Nunito Sans", serif;
+}
+.header .header-left{
+    width: 100%;
+    padding: 170px 0px 200px;
+    text-align: center;
+}
+.header .header-left h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.header .header-left p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+    letter-spacing: 1px;
+}
+.header .header-left .btn{
+    font-size: 18px;
+    margin: 20px 0px;
+    padding: 15px 55px;
+    background-color: transparent;
+    background-color: rgb(14, 213, 213);
+}
+.header .header-left .btn:hover{
+    cursor: pointer;
+    background-color: rgb(221, 207, 115);
+}
+/* header end */
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/img.banner01png.png) top center no-repeat;
+    background-size: cover;
+}
+.banner .iner-banner{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+.banner .iner-banner h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.banner .iner-banner p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+    letter-spacing: 1px;
+}
+.banner .banner-left{
+    width: 100%;
+    margin: 60px 0px;
+    box-shadow: 5px 13px 24px rgb(231, 226, 226);
+}
+.banner .banner-left .icon-img{
+    width: 100%;
+    margin: 0px 0px 10px;
+}
+.banner .banner-left .banner-right{
+    margin: 40px 10px 10px;
+}
+.banner .banner-left .banner-right h5{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito Sans", seri
+}
+.banner .banner-left .banner-font{
+    margin: 40px 10px 10px;
+    text-align: right;
+}
+.banner .banner-left .banner-font h6{
+    font-size: 20px;
+    color: rgb(14, 213, 213);
+    font-weight: 400;
+    font-family: "Nunito Sans", seri
+}
+/* banner end */
+/* focus start */
+.focus{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/img.02banner.png) top center no-repeat;
+    background-size: cover;
+}
+.focus .img-icon{
+    width: 79%;
+}
+.focus .iner-focus{
+    padding: 90px 0px 0px;
+}
+.focus .iner-focus h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.focus .iner-focus h1 span{
+    background-color: rgb(235, 222, 84);
+    padding: 5px 10px;
+}
+.focus .iner-focus p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+    letter-spacing: 1px;
+}
+.focus .iner-focus .btn{
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 15px 55px;
+    background-color: transparent;
+    background-color: rgb(14, 213, 213);
+}
+.focus .iner-focus .btn:hover{
+    cursor: pointer;
+    background-color: rgb(221, 207, 115);
+}
+/* focus end */
+/* feature start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/img.banner03png.png) top center no-repeat;
+    background-size: cover;
+}
+.feature .iner-feature{
+    padding: 90px 0px 0px;
+}
+.feature .iner-feature h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.feature .iner-feature p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+    letter-spacing: 1px;
+}
+.feature .iner-feature .btn{
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 15px 55px;
+    background-color: transparent;
+    background-color: rgb(14, 213, 213);
+}
+.feature .img-icon{
+    width: 78%;
+    margin: 0px 80px;
+}
+/* feature end */
+/* testimonail start */
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/img.body.4png.png) top center no-repeat;
+    background-size: cover;
+}
+.testimonial .iner-testimonial{
+    text-align: center;
+}
+.testimonial .iner-testimonial h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.testimonial .iner-testimonial p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+    letter-spacing: 1px;
+}
+.testimonial .icon-img{
+    padding: 100px 0px;
+    width: 55%;
+}
+.testimonial .img-icon{
+    width: 8%;
+    transform: translate(65px, 13px);
+}
+/* testimonail end */
+/* beautiful start */
+.beautiful{
+    width: 100%;
+    padding: 60px 0px 0px;
+    background: url(../images/img.body.png) top center no-repeat;
+    background-size: ;
+}
+.beautiful .iner-beautiful{
+    text-align: center;
+}
+.beautiful .iner-beautiful h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.beautiful .iner-beautiful p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+}
+.beautiful .beautiful-left{
+    width: 100%;
+    padding: 120px 0px 0px 0px;
+}
+.beautiful .beautiful-left .icon-img{
+    width: 52%;
+    transform: translate(195px, -145px);
+}
+.beautiful .beautiful-left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 30px 0px;
+    color: aliceblue;
+}
+.beautiful .beautiful-left h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: aliceblue;
+    font-family: "Nunito Sans", serif;
+}
+.beautiful .beautiful-left h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: aliceblue;
+    font-family: "Nunito Sans", serif;
+}
+/* beautiful end */
+/* company start */
+.company{
+    width: 100%;
+    padding: 60px 0px 0px;
+}
+.company .iner-company{
+    padding: 80px 0px 0px;
+}
+.company .iner-company h1{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: "Nunito Sans", serif;
+}
+.company .iner-company p{
+    font-size: 18px;
+    font-weight: 400;
+    font-weight: 1.7em;
+}
+.company .iner-company .fa{
+    background-color: rgb(79, 126, 228);
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+    margin: 0px 0px 0px 20px;
+}
+.company .iner-company .fa-instagram{
+    background-color: rgb(225, 75, 239);
+}
+.company .iner-company .fa-twitter{
+    background-color: rgb(83, 198, 227);
+}
+/* company end */
+/* contacus start */
+.contacus{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+}
+.contacus .contacus-left{
+    width: 33%;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+}
+.contacus .contacus-left .iner-box h4{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Nunito Sans", serif;
+    margin: 0px 20px;
+}
+.contacus .contacus-left .form-control{
+    margin: 10px 0px 18px 25px;
+    padding: 10px;
+    width: 85%;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(239, 245, 243);
+}
+.contacus .contacus-left .iner-box .btn{
+    text-align: center;
+    margin: 0px 0px 0px 95px;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contacus .contacus-left .iner-box .btn:hover{
+    cursor: pointer;
+    background: transparent;
+}
+.map{
+    margin-top: -480px;
+    position: relative
+}
+/* contacus end */
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 80px 0px 80px;
+    background-color: rgb(27, 203, 179);
+}
+.footer .iner-footer h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Nunito Sans", serif;
+    margin: 0px 0px 30px;
+}
+.footer .iner-footer h5{
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Nunito Sans", serif;
+}
+.footer .iner-footer h6{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Nunito Sans", serif;
+}
+.footer .iner-footer h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer .iner-footer p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 40px 0px 0px;
+}
+.footer .iner-footer .footer-left{
+    display: block;
+    width: 100%;
+}
+.footer-left li{
+    list-style: none;
+    color: #fff;
+}
+.footer-left li a{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 0px 7px;
+}
+.footer .footer-right .icon-img{
+    width: 50%;
+    margin: 0px 0px 45px;
+}
+.footer .footer-right .iner{
+    transform: translate(-55px , 10px);
+}
+.footer .footer-right .iner h4{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Nunito Sans", serif;
+}
+.footer .footer-right .iner h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+.footer .footer-right h6{
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 1.2em;
+}
+.footer .footer-right p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.7em;
+    margin: 0px 0px 20px;
+}
+.footer .footer-right .fa{
+    margin: 0px 0px 0px 10px;
+    background-color: rgb(233, 233, 241);
+    padding: 10px;
+    font-size: 18px;
+    color: chocolate;
+}
+/* footer end */
+@media (min-width:280px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .header {
+        padding: 10px 0px 20px 0px;
+    }
+    .header .logo{
+        /* width: 18%; */
+    }
+    .header .iner h4 {
+        font-size: 20px;
+    }
+    .header .iner p {
+        font-size: 15px;
+    }
+    .header .header-left {
+        padding: 60px 0px 20px;
+    }
+    .header .header-left h1 {
+        font-size: 33px;
+    }
+    .header .header-left p {
+        font-size: 16px;
+    }
+    .header .header-left .btn{
+        padding: 10px 43px;
+        margin: 10px 0px 0px;
+    }
+    .banner {
+        padding: 20px 0px;
+    }
+    .banner .iner-banner h1 {
+        font-size: 33px;
+    }
+    .banner .iner-banner p{
+        font-size: 16px;
+    }
+    .banner .banner-left {
+        margin: 30px 0px;
+    }
+    .banner .banner-left {
+        margin: 20px 0px 0px;
+    }
+    .focus {
+        padding: 40px 0px 0px;
+    }
+    .focus .iner-focus {
+        padding: 40px 0px 0px;
+    }
+    .focus .iner-focus h1 {
+        font-size: 33px;
+    }
+    .focus .iner-focus p {
+        font-size: 16px;
+    }
+    .focus .iner-focus .btn{
+        padding: 10px 43px;
+        margin: 10px 0px 0px;
+    }
+    .feature {
+        padding: 40px 0px 0px;
+    }
+    .feature .iner-feature {
+        padding: 20px 0px 0px;
+    }
+    .feature .iner-feature h1 {
+        font-size: 33px;
+    }
+    .feature .iner-feature p {
+        font-size: 16px;
+    }
+    .feature .iner-feature .btn{
+        padding: 10px 43px;
+        margin: 10px 0px 0px;
+    }
+    .feature .img-icon {
+        width: 78%;
+        margin: 15px 0px 0px;
+    }
+    .testimonial {
+        padding: 40px 0px 0px;
+    }
+    .testimonial .iner-testimonial h1 {
+        font-size: 33px;
+    }
+    .testimonial .iner-testimonial p {
+        font-size: 16px;
+    }
+    .testimonial .icon-img {
+        padding: 40px 0px 20px;
+    }
+    .beautiful {
+        padding: 30px 0px 0px;
+    }
+    .beautiful .iner-beautiful h1 {
+        font-size: 33px;
+    }
+    .beautiful .iner-beautiful p {
+        font-size: 16px;
+    }
+    .beautiful .beautiful-left {
+        padding: 40px 0px 0px 0px;
+    }
+    .beautiful .beautiful-left .icon-img {
+        width: 52%;
+        transform: translate(154px, 3px);
+    }
+
+
+
+    .company .iner-company {
+        padding: 15px 0px 60px;
+    }
+    .company .iner-company h1 {
+        font-size: 26px;
+    }
+    .company .iner-company p {
+        font-size: 11px;
+    }
+    .company .iner-company .fa {
+        margin: 0px 0px 0px 5px;
+        font-size: 13px;
+    }
+    .contacus {
+        padding: 40px 0px 0px 0px;
+    }
+    .contacus .contacus-left {
+        width: 88%;
+    }
+    .contacus .contacus-left .iner-box h4 {
+        font-size: 22px;
+    }
+    .contacus .contacus-left .form-control {
+        padding: 7px;
+    }
+    .contacus .contacus-left .iner-box .btn {
+        margin: 0px 0px 0px 50px;
+        padding: 6px 13px;
+        font-size: 16px;
+    }
+
+    .footer{
+        padding: 40px 0px 0px 0px;
+    }
+    .footer .iner-footer p {
+        font-size: 17px;
+    }
+    .footer-left li a {
+        font-size: 15px;
+    }
+    .footer .iner-footer h4 {
+        font-size: 22px;
+    }
+    .footer .footer-right .icon-img {
+        width: 18%;
+        margin: 8px 0px;
+    }
+    .footer .footer-right .iner h4 {
+        font-size: 22px;
+        margin: 0px;
+    }
+    .footer .footer-right .iner {
+        transform: translate(2px, 0px);
+    }
+    .footer .footer-right h6 {
+        font-size: 17px;
+        margin: 15px 0px 0px;
+    }
+    .footer .footer-right p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footer .footer-right .fa {
+        margin: 0px 0px 10px 10px;
+        font-size: 15px;
+    }
+}
